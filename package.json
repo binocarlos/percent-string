@@ -1,6 +1,6 @@
 {
   "name": "percent-string",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create percentage strings for CSS properties",
   "main": "index.js",
   "scripts": {
