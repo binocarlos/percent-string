@@ -5,5 +5,6 @@ module.exports = function(num, max){
     return num
   }
   var percent = Math.round((num/max)*100)
+  percent = isNaN(percent) ? 0 : percent
   return percent + '%'
 }
