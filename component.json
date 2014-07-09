@@ -1,32 +1,19 @@
 {
   "name": "percent-string",
   "repo": "binocarlos/percent-string",
-  "description": "A jQuery widget that turns HTML into a CSS 3d book",
+  "description": "create '%' appended strings for settings CSS properties",
   "version": "0.1.1",
   "keywords": [],
   "dependencies": {
-    "component/emitter": "*",
-    "component/domify": "*",
-    "component/css": "*",
-    "component/has-translate3d": "*",
-    "juliangruber/prefixed": "*",
-    "component/transform-property": "*",
-    "anthonyshort/after-transition": "*"
+    
   },
   "development": {},
   "license": "MIT",
   "main": "index.js",
   "styles": [
-    "pageturner.css"
+    
   ],
   "scripts": [
-    "index.js",
-    "controller.js",
-    "tools.js",
-    "book.js",
-    "page.js",
-    "animator.js",
-    "template.js"
-  ],
-  "remotes": []
+    "index.js"
+  ]
 }
