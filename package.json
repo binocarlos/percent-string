@@ -1,0 +1,27 @@
+{
+  "name": "percent-string",
+  "version": "0.0.0",
+  "description": "Create percentage strings for CSS properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/percent-string.git"
+  },
+  "keywords": [
+    "percent",
+    "css",
+    "string"
+  ],
+  "author": "Kai Davenport",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binocarlos/percent-string/issues"
+  },
+  "homepage": "https://github.com/binocarlos/percent-string",
+  "devDependencies": {
+    "tape": "^2.13.3"
+  }
+}
