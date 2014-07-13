@@ -4,7 +4,7 @@ module.exports = function(num, max){
     num += num.charAt(num.length-1)=='%' ? '' : '%'
     return num
   }
-  var percent = Math.round((num/max)*100)
+  var percent = Math.round((num/max)*10000)/100
   percent = isNaN(percent) ? 0 : percent
   return percent + '%'
 }
