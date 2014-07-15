@@ -30,7 +30,7 @@ document.querySelector('#thing').style.top = percent('24%')
 
 ## api
 
-### `var string = percent(value, max)`
+#### `var string = percent(value, max)`
 
 returns a string of the form: [num] + '%' regardless of the input type.
 
